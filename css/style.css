@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    & h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    & canvas {
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    & p { 
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
